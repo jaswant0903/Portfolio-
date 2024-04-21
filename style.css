@@ -1,0 +1,126 @@
+/* Hero Background Image */
+.bgimage {
+    height: 100vh;
+    background: url('image/heroImage.jpeg');
+    background-size: cover;
+    position:relative; 
+    outline-width: 0cqmax;
+}
+
+/* Text CSS above Hero Image */
+.hero_title {
+    font-size: 4.5rem;
+}
+
+.hero_desc {
+    font-size: 2rem;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* About Section Image CSS */
+.imageAboutPage {
+    width: 100%;
+}
+
+/* Services Section CSS */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+}
+
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card:hover .servicesIcon {
+    color: #008000;
+}
+
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+/* Navbar Dark on Scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+/* Social Media Icons Styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-twitter:hover,
+.fa-linkedin:hover,
+.fa-twitch:hover {
+    color: #349dff;
+}
+
+.fab {
+    color: #000000;
+}
+
+/* Footer Styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
+
+/* Spacing on all Sections */
+#about,
+#services,
+#portfolio,
+#contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+
+#contact {
+    padding-bottom: 4rem;
+}
+
+.section-one__Pdf
+{
+    color: aliceblue;
+}
+.transparent-button {
+    background-color: transparent; /* Set background color to transparent */
+    border: 2px solid #ffffff;     /* Add a border for visibility */
+    color: #ffffff;                /* Set text color to white or any color you prefer */
+    padding: 10px 20px;            /* Add padding to the button */
+    font-size: 16px;               /* Set font size */
+    cursor: pointer;               /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+/* Hover effect */
+.transparent-button:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white on hover */
+}
+
+
+.navbar-brand,.navbar-toggler,.nav-link
+{
+    color: #ffffff;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    color: white; /* Set color to white */
+}
